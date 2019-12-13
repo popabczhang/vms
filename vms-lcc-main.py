@@ -4174,8 +4174,8 @@ while runSim:
 #legendSprites.add(legendDude(ccImage, (legendOffsetX+5, legendOffsetY-25),utils.EXTERNALMARKET))
 #legendSprites.add(legendDude(ncImage, (legendOffsetX+65, legendOffsetY-25),utils.EXTERNALMARKET))
 
-
-            drawText('Services', fontSysInfo, background, legendOffsetX-5, legendOffsetY+14)
+            # drawText('Services', fontSysInfo, background, legendOffsetX-5, legendOffsetY+14)
+            drawText('Energy.', fontSysInfo, background, legendOffsetX-5, legendOffsetY+22)
             legendSprites.draw(background)
 
             if clickedTrader == -998:  # CC Data
@@ -4193,7 +4193,8 @@ while runSim:
             drawText('Coop S', fontSysInfo, background, legendOffsetX-5, legendOffsetY+75)
             #background.blit(coopServicesShopImage, (legendOffsetX-10, legendOffsetY+40))
 
-            drawText('Coop P', fontSysInfo, background, legendOffsetX+60, legendOffsetY+75)
+            # drawText('Coop P', fontSysInfo, background, legendOffsetX+60, legendOffsetY+75)
+            drawText('Home', fontSysInfo, background, legendOffsetX+60, legendOffsetY+75)
             #background.blit(coopProductionShopImage, (legendOffsetX+62, legendOffsetY+40))
 
 
@@ -4201,7 +4202,8 @@ while runSim:
             #background.blit(retailShopImage, (legendOffsetX+135, legendOffsetY+50))
 
 
-            drawText('Foreign Retail', fontSysInfo, background, legendOffsetX-5, legendOffsetY+130)
+            # drawText('Foreign Retail', fontSysInfo, background, legendOffsetX-5, legendOffsetY+130)
+            drawText('School', fontSysInfo, background, legendOffsetX-2, legendOffsetY+135)
             #background.blit(foreignRetailShopImage, (legendOffsetX+5, legendOffsetY+100))
 
 
